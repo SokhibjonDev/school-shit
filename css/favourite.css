@@ -1,0 +1,37 @@
+.cardBig {
+    display: flex;
+    color: #002f34;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardBig .cardInfo{
+    width: 600px;
+}
+.cardBig .cardInfo h1{
+    font-size: 42px;
+    border-left: 5px solid #002f34;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+.cardBig .cardInfo h1{
+    font-size: 42px;
+}
+.cardBig .cardInfo p{
+    font-size: 19   px;
+    line-height: 28px;
+}
+.cardBig .cardImg img {
+    width: 500px;
+}
+
+.cardBig .cardInfo button{
+    background: #002f34;
+    color: #fff;
+    border: none;
+    padding: 14px 38px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
