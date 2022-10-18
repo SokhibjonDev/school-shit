@@ -87,18 +87,22 @@ header input::placeholder {
 .catalog-2 a {
     width: 150px;
     height: 150px;
-    background: rgb(0, 255, 255);
-    box-shadow: 7px 7px 7px #ccc, 5px 5px 10px 0px rgba(0, 0, 0, .3) inset;
+    background: rgb(0, 66, 66);
+    box-shadow: 7px 7px 7px #ccc, 5px 5px 10px 0px rgba(0, 0, 0, .9) inset;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     padding: 20px;
     text-align: center;
-    color: #002f34;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
-    border: 5px solid rgba(0, 0, 0, .4);
+    border: 5px solid rgba(255, 255, 255, .7);
+}
+
+.catalog-2 {
+    padding-bottom: 70px;
 }
 
 .heading {
@@ -113,16 +117,81 @@ header input::placeholder {
     background: #f2f4f5;
     padding-top: 100px;
 }
-.card-section .container{
+
+.card-section .container {}
+
+.card-section .heading {
+    margin-bottom: 70px;
+    margin-top: -20px;
+}
+
+.card-section .container {
     display: flex;
     justify-content: space-between;
 }
+
 .card {
     width: 270px;
     background: #fff;
+    transition: .3s;
+    margin-bottom: 70px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px #ccc;
+    transform: scale(1.025);
 }
 
 .card .img img {
     width: 270px;
     height: 320px;
+}
+
+.card .info {
+    margin-left: 10px;
+    width: 265px;
+    color: #002f34;
+    padding-bottom: 20px;
+}
+
+.card .info h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: 4px solid #002f34;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.card .info button {
+    background: #002f34;
+    color: #fff;
+    border: none;
+    padding: 15px 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.aboutcha-section p {
+    text-align: center;
+    width: 800px;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 40px auto;
+}
+
+footer {
+    background: #002f34;
+}
+
+footer .category {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .catalog a{
+    color: #fff;
+    line-height: 30px;
 }
